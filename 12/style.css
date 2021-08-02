@@ -1,0 +1,304 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgb(138, 176, 247);
+}
+
+#umumi{
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+    
+}
+#umumi div{
+    position: absolute;
+}
+#development{
+    width: 550px;
+    height: 290px;
+    background-image: url(img/backend.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -400px;
+    left: 50%;
+    transform: translate(-50%,0);
+    animation-name: development;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes development {
+    
+
+    from{
+        top: -400px;
+    }
+    to{
+        top: -5px;
+    }
+
+    
+}
+#add{
+    font-size:18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: -400px;
+    left: 50%;
+    transform: translate(-50%,0);
+    animation-name: add;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes add {
+    
+
+    from{
+       bottom: -400px;
+    }
+    to{
+       bottom: 380px;
+    } 
+}
+
+
+#front-end{
+    font-size:18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    bottom: 300px;
+    left: -400px;
+    animation-name: front-end;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay:3s ;
+}
+@keyframes front-end {
+    from{
+        left: -400px;
+    }
+    to{
+        left: 200px;
+    }
+    
+}
+
+#JS{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/js.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -400px;
+    bottom: 130px;
+    transform: translate(-50%,0);
+    animation-name: js;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay:6s ;
+
+}
+@keyframes js {
+    from{
+        left: -400px;
+    }
+    to{
+        left: 200px;
+    }
+}
+#CSS{
+    width: 100px;
+    height: 150px;
+    background-image: url(img/css.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -400px;
+    bottom: 130px;
+    transform: translate(-50%,0);
+    animation-name: css;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay:5s ;
+
+}
+@keyframes css {
+    from{
+        left: -400px;
+    }
+    to{
+        left: 300px;
+    }
+}
+#HTML{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/html.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -400px;
+    bottom: 130px;
+    transform: translate(-50%,0);
+    animation-name: html;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay:4s ;
+
+}
+@keyframes html {
+    from{
+        left: -400px;
+    }
+    to{
+        left: 400px;
+    }
+}
+
+
+#front-qiymet{
+    font-size:15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 27, 126);
+    bottom: 90px;
+    left: -400px;
+    animation-name: front-qiymet;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay:7s ;
+}
+@keyframes front-qiymet {
+    from{
+        left: -400px;
+    }
+    to{
+        left: 200px;
+    }
+    
+}
+
+
+#back-end{
+    font-size:18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    bottom: 300px;
+    right: -400px;
+    animation-name: back-end;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay:8s ;
+}
+@keyframes back-end {
+    from{
+        right: -400px;
+    }
+    to{
+       right: 200px;
+    }
+    
+}
+    #PHP{
+        width: 150px;
+        height: 150px;
+        background-image: url(img/php.png.crdownload);
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: -400px;
+        bottom: 130px;
+        transform: translate(-50%,0);
+        animation-name: php;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay:9s ;
+    
+    }
+
+    @keyframes php {
+        from{
+            right: -400px;
+        }
+        to{
+            right: 400px;
+        }
+    }
+
+    #MySQL{
+        width: 200px;
+        height: 150px;
+        background-image: url(img/MySQL-Logo.wine.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: -400px;
+        bottom: 130px;
+        transform: translate(-50%,0);
+        animation-name: mysql;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay:10s ;
+    
+    }
+
+    @keyframes mysql {
+        from{
+            right: -400px;
+        }
+        to{
+            right: 240px;
+        }
+    }
+    #Phyton{
+        width: 150px;
+        height: 150px;
+        background-image: url(img/python-logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: -400px;
+        bottom: 130px;
+        transform: translate(-50%,0);
+        animation-name: phyton;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-delay:11s ;
+    
+    }
+
+    @keyframes phyton {
+        from{
+            right: -400px;
+        }
+        to{
+            right: 100px;
+        }
+    }
+
+    #back-qiymet{
+        font-size:15px;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(10, 27, 126);
+        bottom: 90px;
+        right: -400px;
+        animation-name: back-qiymet;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay:12s ;
+    }
+    @keyframes back-qiymet {
+        from{
+            right: -400px;
+        }
+        to{
+            right: 200px;
+        }
+        
+    }
+
